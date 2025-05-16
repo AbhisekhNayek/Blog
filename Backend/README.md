@@ -19,7 +19,7 @@ Follow these steps to get the backend running locally:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/AbhisekhNayek/Blogify.git
+git clone https://github.com/AbhisekhNayek/Blog.git
 cd api
 ```
 
@@ -69,7 +69,7 @@ This will start the backend server on [http://localhost:3000](http://localhost:3
 Here’s a quick look at the project structure:
 
 ```
-server/
+Backend/
 ├── config/
 ├── controllers/
 ├── models/
