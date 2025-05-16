@@ -40,7 +40,7 @@ app.use('/api/comment', CommentRouote)
 app.use('/api/blog-like', BlogLikeRoute)  
 
 // Connect to MongoDB database
-mongoose.connect(process.env.MONGODB_CONN, { dbName: 'Blog' })
+mongoose.connect(process.env.MONGODB_CONN)
     .then(() => console.log('Database connected.'))
     .catch(err => console.log('Database connection failed.', err))
 
