@@ -1,5 +1,5 @@
 // Import dependencies
-import cloudinary from "../config/cloudinary.js";
+import cloudinary from "../config/cloudinary.config.js";
 import { handleError } from "../helpers/handleError.js";
 import Blog from "../models/blog.model.js";
 import { encode } from 'entities';
