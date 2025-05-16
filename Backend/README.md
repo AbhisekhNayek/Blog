@@ -20,12 +20,12 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/AbhisekhNayek/Blog.git
-cd api
+cd Backend
 ```
 
 ### 2. Install Dependencies 🔧
 
-Inside the `api` directory, run the following command to install all necessary dependencies:
+Inside the `Backend` directory, run the following command to install all necessary dependencies:
 
 ```bash
 npm install
@@ -72,11 +72,12 @@ Here’s a quick look at the project structure:
 Backend/
 ├── config/
 ├── controllers/
+├── helpers/
+├── middlewares/
 ├── models/
 ├── routes/
 ├── middlewares/
-├── utils/
-├── server.js
+├── index.js
 └── .env
 ```
 
