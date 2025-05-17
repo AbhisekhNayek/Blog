@@ -32,8 +32,12 @@ cd Blog
 
 #### 2. Install Dependencies 🔧
 
-Inside the `Frontend` directory, run the following command to install all necessary dependencies:
+Navigate to the `Frontend` directory:
 
+```bash
+cd Frontend
+```
+Run the following command to install all necessary dependencies:
 ```bash
 npm install
 ```
@@ -86,7 +90,7 @@ cd Backend
 
 #### 2. Install Dependencies 🔧
 
-Inside the `api` directory, run the following command to install all necessary dependencies:
+Inside the `Backend` directory, run the following command to install all necessary dependencies:
 
 ```bash
 npm install
