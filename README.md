@@ -27,7 +27,7 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/AbhisekhNayek/Blog.git
-cd Frontend
+cd Blog
 ```
 
 #### 2. Install Dependencies 🔧
