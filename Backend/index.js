@@ -9,6 +9,7 @@ import CategoryRoute from './routes/Category.route.js'
 import BlogRoute from './routes/Blog.route.js'
 import CommentRouote from './routes/Comment.route.js'
 import BlogLikeRoute from './routes/Bloglike.route.js'
+import { rateLimiter } from './middleware/rateLimit.middleware.js';
 
 // Load environment variables
 dotenv.config()
@@ -19,11 +20,13 @@ const app = express()
 // Middleware setup
 app.use(cookieParser())  
 app.use(express.json())   
+app.use(rateLimiter);
 
 app.use(cors({           
     origin: process.env.FRONTEND_URL,  
     credentials: true  
 }))
+
 
 // Default API route to ensure the API is working
 app.get('/', (req, res) => {
