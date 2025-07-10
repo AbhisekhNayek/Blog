@@ -1,7 +1,10 @@
-# 🌟 Blogs Platform 🌟
+# 🌟 Blog Platform 🌟
 
-Welcome to the **Blogs Platform**! 🚀 This is a full-stack project built using **Vite**, **ShadCN**, **TailwindCSS**, **Node.js**, **Express**, **MongoDB**, and **Firebase**. It provides a modern, fast, and responsive user interface to manage and read blog posts, while offering secure backend functionality for authentication and data management. 📚🔒
+Welcome to the **Blog Platform**! 🚀 This is a full-stack project built using **Vite**, **ShadCN**, **TailwindCSS**, **Node.js**, **Express**, **MongoDB**, and **Firebase**. It provides a modern, fast, and responsive user interface to manage and read blog posts, while offering secure backend functionality for authentication and data management. 📚🔒
 
+> 🏆 **Top Performing Project at [Code Circuit Hackathon](https://www.codecircuit.ai/)**
+
+---
 ## 🛠️ Prerequisites
 
 Make sure you have the following installed on your machine:
@@ -9,7 +12,20 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/) (version 14 or higher) 🌐
 - [npm](https://www.npmjs.com/) (for managing packages) 📦
 - [MongoDB](https://www.mongodb.com/) (You can use MongoDB Atlas for cloud database) 💻
+---
 
+## Test Credentials
+
+This section provides test credentials for demonstration and development purposes. **Please do not use these credentials for production environments.**
+
+### Admin Login:
+* **Email:** `admin@gmail.com`
+* **Password:** `Admin@123`
+
+### 👤 User Login:
+* **Email:** `user@gmail.com`
+* **Password:** `User@123`
+---
 ## 🚀 Project Setup
 
 This project is divided into two main parts:
@@ -27,13 +43,17 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/AbhisekhNayek/Blog.git
-cd Frontend
+cd Blog
 ```
 
 #### 2. Install Dependencies 🔧
 
-Inside the `Frontend` directory, run the following command to install all necessary dependencies:
+Navigate to the `Frontend` directory:
 
+```bash
+cd Frontend
+```
+Run the following command to install all necessary dependencies:
 ```bash
 npm install
 ```
@@ -86,7 +106,7 @@ cd Backend
 
 #### 2. Install Dependencies 🔧
 
-Inside the `api` directory, run the following command to install all necessary dependencies:
+Inside the `Backend` directory, run the following command to install all necessary dependencies:
 
 ```bash
 npm install
@@ -152,7 +172,7 @@ Blog/
 │   ├── index.js
 │   └── .env
 ```
-
+---
 ## 💡 Features
 
 ### Frontend Features:
@@ -160,18 +180,19 @@ Blog/
 - 📝 Easy to manage and read blog posts
 - 🔒 Secure authentication using Firebase
 - 🖥️ Fully responsive design
-
+---
 ### Backend Features:
 - 🚀 Fast, efficient RESTful API built with Express
 - 📝 Secure authentication using JWT (JSON Web Tokens)
 - 📱 Media management with Cloudinary for storing images and media
 - 🔒 MongoDB for storing blog posts, users, and other data
 - 🖥️ Fully tested and scalable backend
-
+---
 ## 📢 Contributing
 
 We welcome contributions! Feel free to fork the repository, open issues, and submit pull requests. Together, we can make this project even better. 😄
 
+---
 ## 🔒 License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
